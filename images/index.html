@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="animals,cats,dogs,rabits,health,adoption,infos,news"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js"></script>
+
+    <title>Adoptips_Accueil</title>
+
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"
+    ></script>
+
+    <script>
+      jQuery(function () {
+        $(function () {
+          $(window).scroll(function () {
+            if ($(this).scrollTop() > 200) {
+              $("#scrollUp").css("right", "10px");
+            } else {
+              $("#scrollUp").removeAttr("style");
+            }
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!-- Entête de page -->
+    <header>
+      <!-- Logo à rajouter -->
+      <figure>
+        <a href="./index.html">
+          <img src="./Logo_2_petit_format.png" alt="Logo" class="logo" id="logo"
+        /></a>
+      </figure>
+      <h1 class="name"><a href="./index.html">Adop'Tips </a></h1>
+      <h2 class="accroche">"Informer c'est avertir"</h2>
+
+      <!-- Editer le header en CSS-->
+    </header>
+    <!-- test menu déroulant -->
+    <video class="vid" src="./pexels-cottonbro-studio-4887279-4096x2160-25fps.mp4" autoplay loop type="mp4"></video>
+    <nav id="nav" class="">
+      <a href="./adoption.html"><li>L'Adoption</li></a>
+      <a href="./santé.html"> <li>La Santé</li></a>
+      <a href="./loisirs.html"><li>Les Loisirs</li></a>
+      <a href="./accessoires.html"> <li>Les Accessoires</li></a>
+      <!-- <li>Les Races</li></a> -->
+    </nav>
+    <!-- Test menu déroulant -->
+    
+    <main>
+      <section>
+        <article>
+          <!-- Section Info -->
+          <!-- Retour à la ligne sur le h1 -->
+          <h2 class="firsth2">
+            Une question, un doute à propos de votre compagnon ou futur
+            compagnon ?
+          </h2>
+          <h3 class="firsth3">Notre projet vous apporte les réponses.</h3>
+        </article>
+        <hr />
+        <h2 class="info">Les informations utiles</h2>
+        <article>
+          <div class="carousel">
+            <div class="carousel-inner">
+              <input
+                class="carousel-open"
+                type="radio"
+                id="carousel-1"
+                name="carousel"
+                aria-hidden="true"
+                hidden=""
+                checked="checked"
+              />
+              <div class="carousel-item">
+                <img
+                  src="./kitten-asleep-in-a-pot-1995961_1280.jpg"
+                  alt="chat dort dans un pot"
+                />
+              </div>
+              <input
+                class="carousel-open"
+                type="radio"
+                id="carousel-2"
+                name="carousel"
+                aria-hidden="true"
+                hidden=""
+              />
+              <div class="carousel-item">
+                <img src="./dog-6274151_1280.jpg" alt="chien dans l'herbe" />
+              </div>
+              <input
+                class="carousel-open"
+                type="radio"
+                id="carousel-3"
+                name="carousel"
+                aria-hidden="true"
+                hidden=""
+              />
+              <div class="carousel-item">
+                <img src="./cat-2843180_1280.jpg" alt="chat allongé" />
+              </div>
+              <label for="carousel-3" class="carousel-control prev control-1"
+                >‹</label
+              >
+              <label for="carousel-2" class="carousel-control next control-1"
+                >›</label
+              >
+              <label for="carousel-1" class="carousel-control prev control-2"
+                >‹</label
+              >
+              <label for="carousel-3" class="carousel-control next control-2"
+                >›</label
+              >
+              <label for="carousel-2" class="carousel-control prev control-3"
+                >‹</label
+              >
+              <label for="carousel-1" class="carousel-control next control-3"
+                >›</label
+              >
+              <ol class="carousel-indicators">
+                <li>
+                  <label for="carousel-1" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                  <label for="carousel-2" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                  <label for="carousel-3" class="carousel-bullet">•</label>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <!-- Mettre un Carrousel avec les actus-->
+        </article>
+
+        <hr />
+      </section>
+      <div id="scrollUp">
+        <a href="#top"><img id="gif" jsname="fpF2df" class="sPlQxd st2Nd" src="https://www.google.com/logos/fnbx/animal_paws/cat_kp_dm.gif" alt="" role="button" tabindex="-1" jsaction="uG8GZb" data-ved="2ahUKEwjWvd_Y-Mf_AhVvV6QEHfvmDx0Qu7EJegQIYRAB" data-atf="0" data-frt="0" style="transform: initial;"/></a>
+      </div>
+      <h2 class="categories">Quelques chiffres clés:</h2>
+      <section class="chiffres">
+        <p>
+          -Coût mensuel moyen:
+          <strong>
+            Pour un chien compté un budget de 110€ par mois en moyenne</strong
+          >. <strong> Pour un chat ce sera 90.80€ par mois en moyenne</strong>.
+          <br />
+          -Les abandons:
+          <strong>
+            La France est la détentrice du record mondial de l'abandon
+            d'animaux, avec 100 000 animaux abandonnés par an </strong
+          >.
+        </p>
+      </section>
+      <hr />
+      <!-- Section des rubriques -->
+      <h2 class="categories">Nos Catégories:</h2>
+      <section class="rubriques">
+        <!-- rubrique 1 -->
+        <article class="articl1">
+          <h2 class="adoption">Son Adoption:</h2>
+          <br />
+          
+
+          <p class="p2">
+            Il existe des solutions pour adopter <br> ce nouveau membre de votre
+            famille.
+          </p>
+          <figure>
+            <a href="./adoption.html">
+              <img
+                class="img1"
+                id="img"
+                src="./chat croquette.png"
+                alt="dessin de chat avec une gamelle"
+              />
+            </a>
+          </figure>
+        </article>
+        <!-- rubrique 2 -->
+        <article class="articl2">
+          <h2 class="access">Ses Accessoires:</h2>
+          <br />
+
+          <p class="p2">Votre compagnon n’arrive pas seul <br> dans sa nouvelle famille.</p>
+          <figure>
+            <a href="./accessoires.html"
+              ><img
+                class="img2"
+                id="img"
+                src="./chat allongé .png"
+                alt="dessin de chat allongé"
+              />
+            </a>
+          </figure>
+        </article>
+        <!-- rubrique 3 -->
+        <article class="articl3">
+          <h2 class="loisirs">Ses Loisirs:</h2>
+          <br />
+
+          <p class="p2">Comme tout le monde votre <br>ami(e) a besoin de s’amuser.</p>
+          <figure>
+            <a href="./loisirs.html"
+              ><img
+                class="img3"
+                id="img"
+                src="./Projet Nursery (2).png"
+                alt="dessin de chien mangeant une chaussure"
+            /></a>
+          </figure>
+        </article>
+        <!-- rubrique 4 -->
+        <article class="articl4">
+          <h2 class="santé">Sa Santé:</h2>
+          <br />
+
+          <p class="p2">Un problème ça arrive et ça le/la <br> concerne aussi.</p>
+          <figure>
+            <a href="./santé.html"
+              ><img
+                class="img4"
+                id="img"
+                src="./chien repos.png"
+                alt="dessin de chien prenant un bain"
+            /></a>
+          </figure>
+        </article>
+      </section>
+      <hr />
+    </main>
+    <footer>
+      <!-- Mentions legales/contact/réseaux -->
+      <a href="mentionslegales.html">
+        <h3 class="mentions">Mentions legales</h3></a
+      >
+
+      <h3 class="contact">Contact: adoptips@contact.com</h3>
+
+      <figure class="réseaux">
+        <a href="https://twitter.com"> <i class="fa-brands fa-twitter"></i></a>
+        <a href="https://instagram.com"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+      </figure>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/3005551882.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

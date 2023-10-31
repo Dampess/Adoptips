@@ -1,0 +1,101 @@
+@font-face {
+  font-family: Bilbo-regular;
+  src: url(../Bilbo/Bilbo-Regular.ttf);
+}
+@font-face {
+  font-family: Akaya;
+  src: url(../Akaya_Kanadaka/AkayaKanadaka-Regular.ttf);
+}
+
+.title {
+  font-family: Akaya;
+  text-align: center;
+  font-size: 200%;
+  margin: 0%;
+  
+}
+
+.para{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-family: Akaya;
+    margin-left: 5%;
+}
+h3{
+    font-family: Akaya;
+    font-size: 200%;
+    text-align: justify;
+    width: 100%;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-family: Akaya;
+    align-self: center;
+    position: static;
+    margin-left: 15%;
+}
+.imgpara{
+    width: 150%;
+  padding: 0%;
+  margin: 0;
+  border-radius: 200px;
+  background-color: #a4c4bc;
+}
+
+.para1{
+    width: 80%;
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+background-color: #859f99;
+padding: 5%;
+border-radius: 25%;
+filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666);
+}
+.para2{
+    width: 80%;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    background-color: #859f99;
+    padding: 5%;
+    border-radius: 25%;
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666);
+}
+.para3{
+    width: 80%;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    background-color: #859f99;
+    padding: 5%;
+    border-radius: 25%;
+    margin-bottom: 2%;
+    filter: drop-shadow(7px 7px 7px #666666);
+    -webkit-filter: drop-shadow(7px 7px 7px #666666);
+}
+.imgpara2{
+    width: 200%;
+  padding: 0%;
+  margin: 0;
+  border-radius: 200px;
+  background-color: #a2c2bb;
+}
+.imgpara3{
+    width: 250%;
+  padding: 0%;
+  margin: 0;
+  border-radius: 200px;
+  background-color: #a2c2bb;
+  margin: 2%;
+}
+.imgpres{
+  width: 70%;
+  margin-left: 15%;
+}
